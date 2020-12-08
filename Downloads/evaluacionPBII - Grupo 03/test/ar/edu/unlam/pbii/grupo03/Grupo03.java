@@ -90,7 +90,7 @@ public class Grupo03 {
 		
 		actual.registrarCompra(camila, aVender);
 		
-		assertEquals((Double) 800.0, camila.getPrecioDelProducto(aVender));
+		assertEquals((Double) 800.0, camila.getPrecioDelProducto(aVender)); 
 	}
 	
 	@Test (expected = ConflictoDeInteresesException.class)

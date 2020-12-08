@@ -97,7 +97,7 @@ public class Grupo03 {
 	public void  queUnDirectorNoPuedaComprarProductosDeLaPropiaEmpresa() throws ConflictoDeInteresesException, ProductoNoEncontradoException{		
 		Persona monica = new Director(1000, "Monica", "JJZ526");
 		Empresa actual = new Empresa("Seguros La Tercera");
-		Producto aVender = new Producto(1000, "Seguro de vida", 1000.0);
+		Producto aVender = new Producto(1000, "Seguro de vida", 1000.0); 
 		
 		actual.vincularPersona(monica);
 		actual.agregarProducto(aVender);
